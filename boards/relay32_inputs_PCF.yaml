@@ -7,7 +7,7 @@
 
 binary_sensor:
   - platform: gpio
-    name: "${node_name} IN_01"
+    name: "${node_name} IN_01 salon wejscie 01"
     id: in_01
     pin:
       pcf8574: pcf_inputs_1to14
@@ -17,10 +17,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_1
+        - switch.toggle: relay_11
 
   - platform: gpio
-    name: "${node_name} IN_02"
+    name: "${node_name} IN_02 salon wejscie-02"
     id: in_02
     pin:
       pcf8574: pcf_inputs_1to14
@@ -30,10 +30,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_2
+        - switch.toggle: relay_12
 
   - platform: gpio
-    name: "${node_name} IN_03"
+    name: "${node_name} IN_03 salon wejscie-03"
     id: in_03
     pin:
       pcf8574: pcf_inputs_1to14
@@ -43,10 +43,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_3
+        - switch.toggle: relay_13
 
   - platform: gpio
-    name: "${node_name} IN_04"
+    name: "${node_name} IN_04 salon wejscie-03"
     id: in_04
     pin:
       pcf8574: pcf_inputs_1to14
@@ -56,10 +56,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_4
+        - switch.toggle: relay_14
 
   - platform: gpio
-    name: "${node_name} IN_05"
+    name: "${node_name} IN_05 salon wejscie-05"
     id: in_05
     pin:
       pcf8574: pcf_inputs_1to14
@@ -69,10 +69,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_5
+        - switch.toggle: relay_16
 
   - platform: gpio
-    name: "${node_name} IN_06"
+    name: "${node_name} IN_06 salon wejscie-06"
     id: in_06
     pin:
       pcf8574: pcf_inputs_1to14
@@ -82,10 +82,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_6
+        - switch.toggle: relay_15
 
   - platform: gpio
-    name: "${node_name} IN_07"
+    name: "${node_name} IN_07 salon wejscie-07"
     id: in_07
     pin:
       pcf8574: pcf_inputs_1to14
@@ -95,10 +95,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_7
+        - switch.toggle: relay_19
 
   - platform: gpio
-    name: "${node_name} IN_08"
+    name: "${node_name} IN_08 salon wejscie-08"
     id: in_08
     pin:
       pcf8574: pcf_inputs_1to14
@@ -108,10 +108,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_8
+        - switch.toggle: relay_17
 
   - platform: gpio
-    name: "${node_name} IN_09"
+    name: "${node_name} IN_09 jadalnia balkon 01"
     id: in_09
     pin:
       pcf8574: pcf_inputs_1to14
@@ -121,10 +121,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_9
+        - switch.toggle: relay_16
 
   - platform: gpio
-    name: "${node_name} IN_10"
+    name: "${node_name} IN_10 jadalnia balkon 02"
     id: in_10
     pin:
       pcf8574: pcf_inputs_1to14
@@ -134,10 +134,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_10
+        - switch.toggle: relay_15
 
   - platform: gpio
-    name: "${node_name} IN_11"
+    name: "${node_name} IN_11 salon kanapa 01"
     id: in_11
     pin:
       pcf8574: pcf_inputs_1to14
@@ -150,7 +150,7 @@ binary_sensor:
         - switch.toggle: relay_11
 
   - platform: gpio
-    name: "${node_name} IN_12"
+    name: "${node_name} IN_12 salon kanapa 02"
     id: in_12
     pin:
       pcf8574: pcf_inputs_1to14
@@ -163,7 +163,7 @@ binary_sensor:
         - switch.toggle: relay_12
 
   - platform: gpio
-    name: "${node_name} IN_13"
+    name: "${node_name} IN_13 salon kanapa 03"
     id: in_13
     pin:
       pcf8574: pcf_inputs_1to14
@@ -176,7 +176,7 @@ binary_sensor:
         - switch.toggle: relay_13
 
   - platform: gpio
-    name: "${node_name} IN_14"
+    name: "${node_name} IN_14 salon kanapa 04"
     id: in_14
     pin:
       pcf8574: pcf_inputs_1to14
@@ -189,7 +189,7 @@ binary_sensor:
         - switch.toggle: relay_14
 
   - platform: gpio
-    name: "${node_name} IN_15"
+    name: "${node_name} IN_15 kuchnia blat 01"
     id: in_15
     pin:
       pcf8574: pcf_inputs_15to28
@@ -199,10 +199,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_15
+        - switch.toggle: relay_19
 
   - platform: gpio
-    name: "${node_name} IN_16"
+    name: "${node_name} IN_16 kuchnia blat 02"
     id: in_16
     pin:
       pcf8574: pcf_inputs_15to28
@@ -212,10 +212,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_16
+        - switch.toggle: relay_17
 
   - platform: gpio
-    name: "${node_name} IN_17"
+    name: "${node_name} IN_17 lazienka wew 01"
     id: in_17
     pin:
       pcf8574: pcf_inputs_15to28
@@ -225,10 +225,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_17
+        - switch.toggle: relay_1
 
   - platform: gpio
-    name: "${node_name} IN_18"
+    name: "${node_name} IN_18 lazienka wew 02"
     id: in_18
     pin:
       pcf8574: pcf_inputs_15to28
@@ -238,10 +238,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_18
+        - switch.toggle: relay_2
 
   - platform: gpio
-    name: "${node_name} IN_19"
+    name: "${node_name} IN_19 pokoj dol 01"
     id: in_19
     pin:
       pcf8574: pcf_inputs_15to28
@@ -251,10 +251,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_19
+        - switch.toggle: relay_5
 
   - platform: gpio
-    name: "${node_name} IN_20"
+    name: "${node_name} IN_20 pokoj dol 02"
     id: in_20
     pin:
       pcf8574: pcf_inputs_15to28
@@ -264,10 +264,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_20
+        - switch.toggle: relay_6
 
   - platform: gpio
-    name: "${node_name} IN_21"
+    name: "${node_name} IN_21 kotlownia 01"
     id: in_21
     pin:
       pcf8574: pcf_inputs_15to28
@@ -277,10 +277,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_21
+        - switch.toggle: relay_23
 
   - platform: gpio
-    name: "${node_name} IN_22"
+    name: "${node_name} IN_22 kotlownia 02"
     id: in_22
     pin:
       pcf8574: pcf_inputs_15to28
@@ -288,12 +288,12 @@ binary_sensor:
       mode:
         input: true
       inverted: true
-    on_press:
-      then:
-        - switch.toggle: relay_22
+    # on_press:
+    #   then:
+    #     - switch.toggle: relay_22
 
   - platform: gpio
-    name: "${node_name} IN_23"
+    name: "${node_name} IN_23 garaz - kotlownia 01"
     id: in_23
     pin:
       pcf8574: pcf_inputs_15to28
@@ -303,10 +303,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_23
+        - switch.toggle: relay_21
 
   - platform: gpio
-    name: "${node_name} IN_24"
+    name: "${node_name} IN_24 garaz - kotlownia 02"
     id: in_24
     pin:
       pcf8574: pcf_inputs_15to28
@@ -316,10 +316,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_24
+        - switch.toggle: relay_22
 
   - platform: gpio
-    name: "${node_name} IN_25"
+    name: "${node_name} IN_25 garaz - wiatrolap 02"
     id: in_25
     pin:
       pcf8574: pcf_inputs_15to28
@@ -329,10 +329,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_25
+        - switch.toggle: relay_21
 
   - platform: gpio
-    name: "${node_name} IN_26"
+    name: "${node_name} IN_26 garaz - wiatrolap 02"
     id: in_26
     pin:
       pcf8574: pcf_inputs_15to28
@@ -342,7 +342,7 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_26
+        - switch.toggle: relay_22
 
   - platform: gpio
     name: "${node_name} IN_27"
@@ -358,7 +358,7 @@ binary_sensor:
         - switch.toggle: relay_27
 
   - platform: gpio
-    name: "${node_name} IN_28"
+    name: "${node_name} IN_28 Spizarka schody"
     id: in_28
     pin:
       pcf8574: pcf_inputs_15to28
@@ -368,10 +368,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_28
+        - switch.toggle: relay_9
 
   - platform: gpio
-    name: "${node_name} IN_29"
+    name: "${node_name} IN_29 wiatrolap 01"
     id: in_29
     pin:
       pcf8574: pcf_inputs_28to35_menu
@@ -381,10 +381,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_29
+        - switch.toggle: relay_7
 
   - platform: gpio
-    name: "${node_name} IN_30"
+    name: "${node_name} IN_30 wiatrolap 02"
     id: in_30
     pin:
       pcf8574: pcf_inputs_28to35_menu
@@ -394,10 +394,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_30
+        - switch.toggle: relay_8
 
   - platform: gpio
-    name: "${node_name} IN_31"
+    name: "${node_name} IN_31 Spizarka kuchnia"
     id: in_31
     pin:
       pcf8574: pcf_inputs_28to35_menu
@@ -407,10 +407,10 @@ binary_sensor:
       inverted: true
     on_press:
       then:
-        - switch.toggle: relay_31
+        - switch.toggle: relay_10
 
   - platform: gpio
-    name: "${node_name} IN_32"
+    name: "${node_name} IN_32 Kuchnia 03"
     id: in_32
     pin:
       pcf8574: pcf_inputs_28to35_menu
@@ -418,34 +418,43 @@ binary_sensor:
       mode:
         input: true
       inverted: true
-    on_press:
-      then:
-        - switch.toggle: relay_32
+    # on_press:
+    #   then:
+    #     - switch.toggle: relay_32
 
   - platform: gpio
-    name: "${node_name} IN_33"
+    name: "${node_name} IN_33 Kuchnia 04"
     pin:
       pcf8574: pcf_inputs_28to35_menu
       number: 4
       mode:
         input: true
       inverted: true
+    on_press:
+      then:
+        - switch.toggle: relay_18
       
   - platform: gpio
-    name: "${node_name} IN_34"
+    name: "${node_name} IN_34 lazienka zew 01"
     pin:
       pcf8574: pcf_inputs_28to35_menu
       number: 5
       mode:
         input: true
       inverted: true
+    on_press:
+      then:
+        - switch.toggle: relay_3
       
   - platform: gpio
-    name: "${node_name} IN_35"
+    name: "${node_name} IN_35 lazienka zew 02"
     pin:
       pcf8574: pcf_inputs_28to35_menu
       number: 6
       mode:
         input: true
       inverted: true
+    on_press:
+      then:
+        - switch.toggle: relay_1
 

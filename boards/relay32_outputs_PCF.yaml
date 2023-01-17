@@ -13,7 +13,7 @@ switch:
     
   - platform: gpio
     id: relay_1
-    name: "Relay_01"
+    name: "Lazienka LED"
     pin:
       pcf8574: pcf_1
       # Use pin number 0
@@ -23,7 +23,7 @@ switch:
       inverted: true
   - platform: gpio
     id: relay_2
-    name: "Relay_02"
+    name: "Lazienka lustro"
     pin:
       pcf8574: pcf_1
       # Use pin number 1
@@ -34,7 +34,7 @@ switch:
       
   - platform: gpio
     id: relay_3
-    name: "Relay_03"
+    name: "Lazienka glowne"
     pin:
       pcf8574: pcf_1
       # Use pin number 2
@@ -45,7 +45,7 @@ switch:
       
   - platform: gpio
     id: relay_4
-    name: "Relay_04"
+    name: "Relay_4"
     pin:
       pcf8574: pcf_1
       # Use pin number 3
@@ -56,7 +56,7 @@ switch:
       
   - platform: gpio
     id: relay_5
-    name: "Relay_05"
+    name: "Pokoj dol 01"
     pin:
       pcf8574: pcf_1
       # Use pin number 4
@@ -67,7 +67,7 @@ switch:
       
   - platform: gpio
     id: relay_6
-    name: "Relay_06"
+    name: "Pokoj dol 02"
     pin:
       pcf8574: pcf_1
       # Use pin number 5
@@ -78,7 +78,7 @@ switch:
 
   - platform: gpio
     id: relay_7
-    name: "Relay_07"
+    name: "Wiatrolap szafa"
     pin:
       pcf8574: pcf_1
       # Use pin number 6
@@ -89,7 +89,7 @@ switch:
       
   - platform: gpio
     id: relay_8
-    name: "Relay_08"
+    name: "Wiatrolap glowne"
     pin:
       pcf8574: pcf_1
       # Use pin number 7
@@ -100,7 +100,7 @@ switch:
 
   - platform: gpio
     id: relay_9
-    name: "Relay_09"
+    name: "Spizarka schody"
     pin:
       pcf8574: pcf_2
       # Use pin number 0
@@ -111,7 +111,7 @@ switch:
       
   - platform: gpio
     id: relay_10
-    name: "Relay_10"
+    name: "Spizarka kuchnia"
     pin:
       pcf8574: pcf_2
       # Use pin number 1
@@ -122,7 +122,7 @@ switch:
   
   - platform: gpio
     id: relay_11
-    name: "Relay_11"
+    name: "Korytarz"
     pin:
       pcf8574: pcf_2
       # Use pin number 2
@@ -133,7 +133,7 @@ switch:
       
   - platform: gpio
     id: relay_12
-    name: "Relay_12"
+    name: "Salon LED"
     pin:
       pcf8574: pcf_2
       # Use pin number 3
@@ -144,7 +144,7 @@ switch:
       
   - platform: gpio
     id: relay_13
-    name: "Relay_13"
+    name: "Salon TV"
     pin:
       pcf8574: pcf_2
       # Use pin number 4
@@ -155,7 +155,7 @@ switch:
       
   - platform: gpio
     id: relay_14
-    name: "Relay_14"
+    name: "Salon kanapa"
     pin:
       pcf8574: pcf_2
       # Use pin number 5
@@ -166,7 +166,7 @@ switch:
       
   - platform: gpio
     id: relay_15
-    name: "Relay_15"
+    name: "Jadalnia stol"
     pin:
       pcf8574: pcf_2
       # Use pin number 6
@@ -177,7 +177,7 @@ switch:
       
   - platform: gpio
     id: relay_16
-    name: "Relay_16"
+    name: "Jadalnia glowne"
     pin:
       pcf8574: pcf_2
       # Use pin number 7
@@ -188,7 +188,7 @@ switch:
     
   - platform: gpio
     id: relay_17
-    name: "Relay_17"
+    name: "Kuchnia blat"
     pin:
       pcf8574: pcf_1
       # Use pin number 15
@@ -199,7 +199,7 @@ switch:
 
   - platform: gpio
     id: relay_18
-    name: "Relay_18"
+    name: "Kuchnia LED"
     pin:
       pcf8574: pcf_1
       # Use pin number 14
@@ -210,7 +210,7 @@ switch:
       
   - platform: gpio
     id: relay_19
-    name: "Relay_19"
+    name: "Kuchnia glowne"
     pin:
       pcf8574: pcf_1
       # Use pin number 13
@@ -232,7 +232,7 @@ switch:
       
   - platform: gpio
     id: relay_21
-    name: "Relay_21"
+    name: "Garaz 01"
     pin:
       pcf8574: pcf_1
       # Use pin number 11
@@ -243,7 +243,7 @@ switch:
       
   - platform: gpio
     id: relay_22
-    name: "Relay_22"
+    name: "Garaz 02"
     pin:
       pcf8574: pcf_1
       # Use pin number 10
@@ -254,7 +254,7 @@ switch:
       
   - platform: gpio
     id: relay_23
-    name: "Relay_23"
+    name: "Kotlownia"
     pin:
       pcf8574: pcf_1
       # Use pin number 9
