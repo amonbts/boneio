@@ -276,7 +276,7 @@ switch:
       
   - platform: gpio
     id: relay_25
-    name: "Relay_25"
+    name: "Salon sufit led"
     pin:
       pcf8574: pcf_2
       # Use pin number 15
@@ -298,7 +298,7 @@ switch:
       
   - platform: gpio
     id: relay_27
-    name: "Relay_27"
+    name: "Oczyszczalnia"
     pin:
       pcf8574: pcf_2
       # Use pin number 13
